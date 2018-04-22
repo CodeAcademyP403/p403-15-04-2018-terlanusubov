@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-6 leftSide">
+            <img src="img/Logo.png" alt="" class="mainLogo">
+            <h4>Tələbə Məlumat Sistemi</h4>
+            <div class="Entrance">
+                <div class="col-12">
+                    <img src="img/logo2.png" alt="" class="inputLogo">
+                    <a href="https://www.beu.edu.az">Bakı Mühəndislik Universiteti
+                    </a>
+                </div>
+                <div class="inputName">
+                    <input type="text" id="stName" class="st" placeholder="Ad">
+                </div>
+                <div class="inputSurname">
+                    <input type="text" id="stsurName" class="st" placeholder="Soyad">
+                </div>
+                <div class="inputId">
+                    <input type="text" id="stnumber" class="st" placeholder="Tələbə Nömrəsi" maxlength="6">
+                </div>
+                <button class="btn btn-primary" id="button">Tələbə Əlavə Et</button>
+            </div>
+        </div>
+        <div class="col-6 rightSide" id="List"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

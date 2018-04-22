@@ -1,0 +1,62 @@
+.Entrance{
+    margin:auto;
+    width:400px;
+    height:300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding:10px 20px;
+}
+.mainLogo{
+    width:300px;
+    height:80px;
+}
+.inputLogo{
+    width:50px;
+    height:50px;
+    margin-top:20px;
+}
+.container{
+    margin-top:100px;
+}
+
+body{
+    background:#f2f2f2;
+}
+a:hover {
+    text-decoration:none;
+    line-height: 20px;
+}
+h4{
+    text-align: center;
+    margin-top:50px;
+}
+.st{
+    width:350px;
+    margin-top:15px;
+    border-color:rgb(214, 211, 211);
+    border:1px solid rgb(214, 211, 211);
+    border-radius:5px;
+    padding:2px 10px;
+}
+.btn{
+    margin-top:10px;
+    float:right;
+}
+.leftSide{
+    border-right: 1px solid #ababab;
+}
+#List{
+    padding:20px 50px;
+}
+.form-control{
+    width:800px!important;
+    display: inline-block;
+    max-height:0px;
+    min-height:0px!important;
+}
+.mark{
+    width:50px;
+    margin-left:10px;
+    opacity: 0;
+    transition: all 0.25s linear;
+}
