@@ -1,0 +1,65 @@
+.col-6{
+    border:1px solid grey;
+}
+#bounceDiv{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+#circle{
+    width:50px;
+    height:50px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    left:50%;
+    animation-name: action;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes action {
+    0%{
+      top:30%;  top:70%;
+      }
+    25%{
+      top:70%;  top:30%;
+    }
+    50%{
+        top:30%;  top:70%;
+       }
+    75%{
+        top:70%;  top:30%;
+       }
+    100%{
+        top:30%;  top:70%;
+       }
+}
+#actionDiv{
+    padding-left:100px;
+    padding-top:30px;
+    background-color: teal;
+}
+label{
+    color:white;
+    font-weight:bold;
+    font-size:1.1em;
+}
+h1{
+    margin-bottom:50px;
+}
+input{
+    display: block;
+    margin-bottom:20px;
+    padding:1px 4px;
+}
+p{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+}
